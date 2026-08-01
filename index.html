@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Karodiya</title>
+    <meta name="description" content="Dinesh Karodiya personal website - B.Tech Student ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="fixed-top-nav">
+    <header>
+        <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="publications.html">publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cv.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="search-toggle" class="btn btn-link nav-link" onclick="openSearchModal()">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button id="light-toggle" class="btn btn-link nav-link">
+                                <i class="fa-solid fa-circle-half-stroke" id="light-toggle-system"></i>
+                                <i class="fa-solid fa-moon" id="light-toggle-dark" style="display:none;"></i>
+                                <i class="fa-solid fa-sun" id="light-toggle-light" style="display:none;"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <progress id="progress" value="0" max="100"></progress>
+    </header>
+
+    <div class="container mt-5 pt-4" role="main">
+        <div class="post">
+            <header class="post-header">
+                <h1 class="post-title">
+                    <span class="font-weight-bold">Dinesh</span> Karodiya
+                </h1>
+                <p class="desc fs-5">Python Developer | Cybersecurity Enthusiast</p>
+                <p>
+                  I am an Integrated B.Tech–M.Tech Computer Science engineering student. Currently, I am developing the <strong>Ensuring Student</strong> platform while working on Python-based Cybersecurity, Full Stack Web Development, and Mobile App Development. I am also strengthening my expertise in Artificial Intelligence and Machine Learning through hands-on projects and continuous learning.
+                </p>
+                <p class="font-italic">
+                    "Aspiring Software Engineer with a passion for Cybersecurity, AI, and Full Stack Development."
+                </p>
+            </header>
+            <article>
+                <div class="profile float-md-right ml-3 mb-3">
+                    <figure>
+                        <picture>
+                            <source srcset="images/image.png" type="image/png">
+                            <img src="images/image.png" class="img-fluid rounded" alt="Profile photo" style="max-width:250px;">
+                        </picture>
+                    </figure>
+                    <div class="more-info mt-2">
+                        <p><i class="fas fa-map-marker-alt"></i> Jhunjhunu, Rajasthan, <b>India - 333001</b></p>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <p>My interests focus on Python programming, Cybersecurity, Full Stack Web Development, Mobile App Development, and Artificial Intelligence. I enjoy building secure, scalable, and user-friendly applications while continuously improving my technical skills through practical projects and real-world problem solving.</p>
+                    <p>My work and learning currently span several areas, including:</p>
+                    <ul>
+                      <li><em>Python Development</em>, building automation tools and practical applications.</li>
+                      <li><em>Cybersecurity</em>, learning ethical hacking, network security, and secure software development.</li>
+                      <li><em>Full Stack Web Development</em>, developing responsive and scalable web applications using modern technologies.</li>
+                      <li><em>Mobile App Development</em>, creating cross-platform applications and exploring modern mobile frameworks.</li>
+                      <li><em>Artificial Intelligence & Machine Learning</em>, applying AI techniques to solve real-world problems through hands-on projects.</li>
+                      <li><em>Database Management</em>, working with MySQL and designing efficient database systems.</li>
+                    </ul>
+                    <p>I am currently pursuing an Integrated B.Tech–M.Tech in Computer Science, building a strong foundation in Software Engineering, Python Programming, Cybersecurity, Artificial Intelligence, Machine Learning, and research-oriented problem solving. </p>
+                </div>
+                <h2 class="mt-4">News</h2>
+                <div class="news">
+                    <div class="table-responsive">
+                        <table class="table table-sm table-borderless">
+                            <tr>
+                                <th scope="row" style="width: 20%">2024 – 2029 (Expected)</th>
+                                <td>Currently pursuing an Integrated B.Tech–M.Tech in Computer Science, with a focus on Software Engineering, Python Programming, Cybersecurity, Artificial Intelligence, Machine Learning, and Full Stack Web Development. </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="width: 20%">2026</th>
+                                <td>Working on the <strong>Ensuring Student</strong> platform while enhancing my skills in Python, Cybersecurity, Full Stack Web Development, Mobile App Development, Artificial Intelligence, and Machine Learning through hands-on projects.</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="social mt-4">
+                    <a href="CV/cv_ds.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-file-pdf"></i> CV
+                    </a>
+                    <a href="https://www.linkedin.com/in/dinesh-karodiya-ba03b5326/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn btn-outline-info btn-sm">
+                       <i class="fab fa-linkedin"></i>
+                   </a>
+                    <a href="mailto:dineshkarodiya61@gmail.com" class="btn btn-outline-secondary btn-sm">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/dineshkarodiya61" target="_blank" class="btn btn-outline-dark btn-sm">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div class="contact-note alert alert-info mt-4">
+                    <i class="fas fa-hand-peace mr-2"></i>
+                    I am always open to new opportunities for collaboration and learning. Feel free to reach out for software development, Cybersecurity, AI, or project discussions.
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer class="fixed-bottom">
+        <div class="container text-center">
+            © 2026 Dinesh Karodiya. All rights reserved.<br>
+            Hosted on <a href="https://github.com/dineshkarodiya61" target="_blank">GitHub</a>
+        </div>
+    </footer>
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Search</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+                    <div id="searchResults" class="mt-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
