@@ -346,7 +346,16 @@ body.dark-theme .cv .card th {
 body.dark-theme .cv .card td {
     color: var(--dark-text) !important;
 }
-
+.hobbies {
+    margin-bottom: 40px;
+}
+.hobbies .card {
+    border: 1px solid var(--global-divider-color);
+}
+.hobbies .list-group-item {
+    background: transparent;
+    border-color: var(--global-divider-color);
+}
 body.dark-theme .cv .card em {
     color: var(--dark-muted) !important;
 }
@@ -410,7 +419,66 @@ body.dark-theme .publications .btn-outline-success:hover {
     background-color: var(--dark-success) !important;
     color: var(--global-bg-color) !important;
 }
+.achevement {
+    margin-top: 2rem;
+}
+.achevement h2.bibliography {
+    text-align: right;
+    color: var(--global-text-color-light);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+body.dark-theme .achevement {
+    color: var(--dark-text) !important;
+}
 
+body.dark-theme .achevement.card {
+    background: var(--dark-card-bg) !important;
+    border-color: var(--dark-border) !important;
+}
+
+body.dark-theme .achevement .card h5 {
+    color: var(--dark-heading) !important;
+}
+
+body.dark-theme .achevement .card p {
+    color: var(--dark-text) !important;
+}
+
+body.dark-theme .achevement.card strong {
+    color: var(--global-theme-color) !important;
+}
+
+body.dark-theme .achevement .btn-outline-primary {
+    color: var(--global-theme-color) !important;
+    border-color: var(--global-theme-color) !important;
+}
+
+body.dark-theme .achevement.btn-outline-primary:hover {
+    background-color: var(--global-theme-color) !important;
+    color: var(--global-bg-color) !important;
+}
+
+body.dark-theme .achevement .btn-outline-secondary {
+    color: var(--dark-muted) !important;
+    border-color: var(--dark-muted) !important;
+}
+
+body.dark-theme .achevement .btn-outline-secondary:hover {
+    background-color: var(--dark-muted) !important;
+    color: var(--global-bg-color) !important;
+}
+
+body.dark-theme .achevement .btn-outline-success {
+    color: var(--dark-success) !important;
+    border-color: var(--dark-success) !important;
+}
+
+body.dark-theme .achevement.btn-outline-success:hover {
+    background-color: var(--dark-success) !important;
+    color: var(--global-bg-color) !important;
+}
 .btn-outline-primary {
     color: var(--global-theme-color);
     border-color: var(--global-theme-color);
